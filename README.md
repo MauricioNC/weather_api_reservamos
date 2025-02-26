@@ -10,3 +10,6 @@ This is an interview project. It consists in fetch places from reservamos API an
 
 * Executing program
   - Run `rails server` or `rails s` in your terminal to run the project.
+
+## Use of AI
+For this project I don't use an AI like ChatGPT, only Copilot, that now comes with Visual Studio Code for free. This AI allowed me to complete some code or give me ideas of how to use Ruby methods.
