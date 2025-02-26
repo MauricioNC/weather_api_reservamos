@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Weather API
+This is an interview project. It consists in fetch places from reservamos API and cross this information to fetch weathe from OpernWeather API.
 
-Things you may want to cover:
+## Getting Started
+* Installing the project:
+  - Clone this repo into your workspace directory.
+  - For this project, a database is unnecessary, but if you want to connecto to database, create the database.yml file into the config directory.
+  - Execute the `bundle install` command to install all the necessary gems.
+  - Creat a `.env` file into the root path of the project, and create the environment variables with the endpoints and API_KEYs if necessary.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Executing program
+  - Run `rails server` or `rails s` in your terminal to run the project.
