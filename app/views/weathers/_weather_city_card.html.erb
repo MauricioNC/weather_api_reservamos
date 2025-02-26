@@ -1,0 +1,10 @@
+<div class="card-item w-[500px] max-w-[400px] shadow-xl border-[1px] border-neutral-300 rounded-md">
+  <div class="card_image flex items-center justify-center mb-2">
+    <%= image_tag("https://openweathermap.org/img/wn/#{data[:weather][0]['icon']}.png") %>
+  </div>
+  <div class="card_body flex flex-col gap-1">
+    <p class="text-center"><span class="text-neutral-900 text-xl"><%= data[:city_name] %></span></p>
+    <p class="text-center"><span class="text-neutral-900 text-4xl"><%= data[:main]['temp'] %>°</span></p>
+    <p class="text-center"><span class="text-neutral-900 text-xl"><%= data[:weather][0]['main'] %></span></p>
+  </div>
+</div>

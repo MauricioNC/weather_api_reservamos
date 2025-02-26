@@ -1,0 +1,10 @@
+<div class="flex flex-col items-center justify-center h-[300px] shadow-xl bg-blue-950 w-screen">
+  <%= form_with url: weather_path, method: :post, html: { data: { turbo_frame: "cities_weather" } } do |f| %>
+    <%= f.text_field :city, placeholder: "City name", class: 'p-2 border-[1px] border-neutral-100 ring-0 outline-0 rounded-md shadow-xl placeholder-white text-white' %>
+    <%= f.submit "Get weather", class: 'bg-green-400 p-2 rounded-md' %>
+  <% end %>
+</div>
+
+<div class="w-full overflow-y-scroll">
+  <%= turbo_frame_tag "cities_weather", class: 'flex flex-row items-center justify-center gap-5 flex-wrap w-full' %>
+</div>
