@@ -1,5 +1,3 @@
-# README
-
 # Weather API
 This is an interview project. It consists in fetch places from reservamos API and cross this information to fetch weathe from OpernWeather API.
 
